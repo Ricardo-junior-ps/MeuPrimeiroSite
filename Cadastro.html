@@ -6,6 +6,7 @@
     <title>Cadastro</title>
 </head>
 
+<body>
     <a href="index.html">
     <img src="Imagens/joga+ logo.png">
     </a>
@@ -13,31 +14,58 @@
     <img src="Imagens/D_907385-MLB54901558500_042023-O-removebg-preview.png" alt=""> <br>
     
     <a href="index.html">
-    <button>Voltar</button> <br>
+    <button>Voltar</button> <br><br>
     </a>
 
+<form>
     <div>
-        <label for="Título">Título</label>
-        <input type="text" id="Titulo" />
+        <label for="nome">Nome: </label>
+        <input type="text" id="Titulo" /><br><br>
     </div>
 
     <div>
-        <label for="lançamento">Lançamento</label>
-        <input type="text" id="Lançamento" />
+        <label for="capajogo">Imagem do jogo </label>
+        <input type="file" id="capajogo" name="capajogo"><br><br>
     </div>
 
     <div>
-        <label for="plataforma">Plataforma</label>
-        <input type="text" id="Plataforma" />
+        <label for="Lançamento">Ano de Lançamento: </label>
+        <input type="text" id="Lançamento" /><br><br>
     </div>
 
     <div>
-        <label for="Descrição">Descrição</label>
-        <textarea id="descricao"></textarea>
+        <label for="Plataforma">Plataforma: </label>
+        <select id="Plataforma" name="Plataforma"> 
+            <option value="plataforma">Escolha uma plataforma</option>
+            <option value="gc">GameCube (Nintendo)</option>
+            <option value="n64">Nintendo 64 (Nintendo)</option>
+            <option value="switch">Nintendo Switch (Nintendo)</option>
+            <option value="pc">PC (Steam)</option>
+            <option value="ps1">PlayStation 1 (Sony)</option>
+            <option value="ps2">PlayStation 2 (Sony)</option>
+            <option value="ps3">PlayStation 3 (Sony)</option>
+            <option value="ps4">PlayStation 4 (Sony)</option>
+            <option value="ps5">PlayStation 5 (Sony)</option>
+            <option value="supernintendo">Super Nintendo (Nintendo)</option>
+            <option value="wii">Wii (Nintendo)</option>
+            <option value="wiiu">Wii U (Nintendo)</option>
+            <option value="xbox">Xbox (Microsoft)</option>
+            <option value="xbox360">Xbox 360 (Microsoft)</option>
+            <option value="xboxone">Xbox One (Microsoft)</option>
+            <option value="xboxseries">Xbox Series S/X (Microsoft)</option>  
+        </select><br><br>
     </div>
-    
-    <button>Save game</button> <br><br>
-    <button>Delete game</button> <br><br>
+
+    <div>
+        <label for="descricao">Descrição: </label>
+        <textarea id="descricao"></textarea><br><br>
+    </div>
+
+    <div>
+        <button type="submit">Save Game</button> <br><br>
+        <button type="submit">Delete Game</button> <br><br>
+    </div>
+</form>
     
 </body>
 </html>
