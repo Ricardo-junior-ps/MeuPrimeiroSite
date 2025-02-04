@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    list-style: none;
+    text-decoration: none;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 50px; /* Cantos arredondados */
+    width: 90px;
+    height: 30px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+#logo {
+    width: 150px;
+    height: auto;  
+}
+
+.cards {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 10px;
+    align-items: center;
+}
