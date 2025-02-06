@@ -1,79 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="style.css">
+    <title>joga +</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
+<body id="corpoForm">
     <header>
-    <img id="logo" src="Imagens/joga+ logo.png">
+        <nav>
+            <div class="logo">Joga +</div>
+            <ul>
+                <li><a href="/index2.html">Home</a></li>
+                <li><a href="/Jogos.html"">Jogos</a></li>
+                <li><a href="/Cadastro2.html"">Cadastro</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="./index.html">
-                <button id="navegacao">Home</button>
-        </a> 
-        <a href="./Cadastro.html">
-                <button id="navegacao">Cadastro</button>
-        </a>
-    </nav>
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Cadastro de jogos</h1>
+        </div>
+    </section>
 
-<form>
-    <div>
-        <label for="nome">Nome: </label>
-        <input type="text" id="Titulo" /><br><br>
+    <div class="form-container">
+        <h2>Novo Jogo</h2>
+        <form action="#" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite o nome do jogo" required>
+
+            <label for="capa">Imagem</label>
+            <input type="file" capa" name="capa">
+
+            <label for="email">Lançamento:</label>
+            <input type="date" id="lançamento" name="lançamento">
+
+            <label for="message">Descrição:</label>
+            <textarea id="message" name="message" placeholder="Adicione uma sinopse ao jogo..." rows="5" required></textarea>
+
+            <button id="salvar" type="submit">Save game</button><br><br>
+            <button id="cancelar" type="submit">Delete game</button>
+        </form>
     </div>
 
-    <div>
-        <label for="capajogo">Imagem do jogo </label>
-        <input type="file" id="capajogo" name="capajogo"><br><br>
-    </div>
+    <section id="about" class="about">
+        <h2>Sobre o Site</h2>
+        <p>Joga +, porque no universo dos jogos, a diversão nunca tem limites!</p>
+    </section>
 
-    <div>
-        <label for="Lançamento">Ano de Lançamento: </label>
-        <input type="text" id="Lançamento" /><br><br>
-    </div>
-
-    <div>
-        <label for="Plataforma">Plataforma: </label>
-        <select id="Plataforma" name="Plataforma"> 
-            <option value="plataforma">Escolha uma plataforma</option>
-            <option value="gc">GameCube (Nintendo)</option>
-            <option value="n64">Nintendo 64 (Nintendo)</option>
-            <option value="switch">Nintendo Switch (Nintendo)</option>
-            <option value="pc">PC (Steam)</option>
-            <option value="ps1">PlayStation 1 (Sony)</option>
-            <option value="ps2">PlayStation 2 (Sony)</option>
-            <option value="ps3">PlayStation 3 (Sony)</option>
-            <option value="ps4">PlayStation 4 (Sony)</option>
-            <option value="ps5">PlayStation 5 (Sony)</option>
-            <option value="supernintendo">Super Nintendo (Nintendo)</option>
-            <option value="wii">Wii (Nintendo)</option>
-            <option value="wiiu">Wii U (Nintendo)</option>
-            <option value="xbox">Xbox (Microsoft)</option>
-            <option value="xbox360">Xbox 360 (Microsoft)</option>
-            <option value="xboxone">Xbox One (Microsoft)</option>
-            <option value="xboxseries">Xbox Series S/X (Microsoft)</option>  
-        </select><br><br>
-    </div>
-
-    <div>
-        <label for="descricao">Descrição: </label>
-        <textarea id="descricao"></textarea><br><br>
-    </div>
-</form>
-
-<div id="botoescadastro">
-    <button id="salvar" type="submit">Save Game</button> 
-    <button id="cancelar" type="submit">Delete Game</button> 
-</div>
-
-<footer>
-    <img id="logo" src="Imagens/D_907385-MLB54901558500_042023-O-removebg-preview.png" alt=""> <br>
-    <h3>Desenvolvido por Ricardo Junior</h3>
-</footer>
-    
+    <footer>
+        <p>&copy; 2025 Desenvolvido por Ricardo Junior</p>
+    </footer>
 </body>
 </html>
