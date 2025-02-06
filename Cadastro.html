@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="corpoForm">
+    <header>
+        <nav>
+            <div class="logo">Joga +</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Jogos.html"">Jogos</a></li>
+                <li><a href="Cadastro.html"">Cadastro</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Cadastro de jogos</h1>
+        </div>
+    </section>
+
+    <div class="form-container">
+        <h2>Novo Jogo</h2>
+        <form action="#" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite o nome do jogo" required>
+
+            <label for="capa">Imagem</label>
+            <input type="file" capa" name="capa">
+
+            <label for="email">Lançamento:</label>
+            <input type="date" id="lançamento" name="lançamento">
+
+            <label for="message">Descrição:</label>
+            <textarea id="message" name="message" placeholder="Adicione uma sinopse ao jogo..." rows="5" required></textarea>
+
+            <button id="salvar" type="submit">Save game</button><br><br>
+            <button id="cancelar" type="submit">Delete game</button>
+        </form>
+    </div>
+
+    <section id="about" class="about">
+        <h2>Sobre o Site</h2>
+        <p>Joga +, porque no universo dos jogos, a diversão nunca tem limites!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Desenvolvido por Ricardo Junior</p>
+    </footer>
+</body>
+</html>
