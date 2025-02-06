@@ -1,43 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joga +</title>
-    <link rel="stylesheet" href="style.css">
+    <title>joga +</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <img id="logo" src="Imagens/joga+ logo.png">
+        <nav>
+            <div class="logo">Joga +</div>
+            <ul>
+                <li><a href="/index2.html">Home</a></li>
+                <li><a href="/Jogos.html"">Jogos</a></li>
+                <li><a href="/Cadastro2.html"">Cadastro</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-        <nav>
-            <a href="./index.html">
-                    <button>Home</button>
-            </a> 
-            <a href="./Cadastro.html">
-                    <button>Cadastro</button>
-            </a>
-        </nav>
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Bem-vindo ao Joga +</h1>
+        </div>
+    </section>
 
-        <p>Lista de jogos</p>
+    <section id="games" class="games">
+        <h2>Jogos em Destaque</h2>
+        <div class="game-cards">
+            <div class="game-card">
+                <a href="Detalhes2.html">
+                <img src="/Imagens/Castlevania.webp" alt="Jogo 1">
+                </a>
+                <h3>Castlevania: Symphony of the night</h3>
+            </div>
+            <div class="game-card">
+                <img src="/Imagens/GodOfWarwebp.webp" alt="Jogo 2">
+                <h3>God of War</h3>
+            </div>
+            <div class="game-card">
+                <img src="/Imagens/TW3_Wild_Hunt.png" alt="Jogo 3">
+                <h3>The Witche 3: Wild Hunt</h3>
+            </div>
+        </div>
+    </section>
 
-    <div class="cards"
-        </a>
-            <a href="detalhes.html">
-            <img src="Imagens/Castlevania_Symphony_of_the_Night_Capa.jpg">
-        </a>
-
-            <img src="Imagens/The-Witcher-3-Wild-Hunt-Icone-R2A-Games.jpeg">
-            <img src="Imagens/Assassins_Creed_4_Black_Flag_capa.png">
-            <img src="Imagens/Metroid-Dread-capa.jpeg">
-            <img src="Imagens/81i-E0DuBrL._AC_UF1000,1000_QL80_.jpg">
-            <img src="Imagens/God_of_War_2018_capa.png">
-    </div>
+    <section id="about" class="about">
+        <h2>Sobre o Site</h2>
+        <p>Joga +, porque no universo dos jogos, a diversão nunca tem limites!</p>
+    </section>
 
     <footer>
-            <img id="logo" src="Imagens/D_907385-MLB54901558500_042023-O-removebg-preview.png" alt=""> <br>
+        <p>&copy; 2025 Desenvolvido por Ricardo Junior</p>
     </footer>
 </body>
 </html>
