@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
     }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     padding: 10px 0;
 }
 
@@ -26,7 +26,7 @@ nav {
 
 nav .logo {
     color: #fff;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -114,7 +114,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -180,7 +180,7 @@ footer {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -246,7 +246,7 @@ input:focus, textarea:focus {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -323,7 +323,7 @@ h2 {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     margin: 0;
 }
 
